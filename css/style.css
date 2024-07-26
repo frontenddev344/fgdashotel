@@ -289,6 +289,8 @@ a.button_main:hover {
 }
 
 /* casino styling end */
+
+/* boutique section start */
 .boutique {
     height: 500px;
     background-image: url(../img/btique.jpg);
@@ -307,7 +309,8 @@ a.button_main:hover {
     z-index: 0;
 }
 
-/* boutique section start */
+/* boutique section end */
+/* motel styling start */
 .motel {
     height: 500px;
     background-image: url(../img/motelbanner.jpg);
@@ -326,10 +329,27 @@ a.button_main:hover {
     z-index: 0;
 }
 
-/* boutique section end */
 /* motel styling start */
+/* bb styling start */
+.bb_banner {
+    height: 500px;
+    background-image: url(../img/bbbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
-/* motel styling start */
+.bb_banner::before {
+    position: absolute;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+/* bb styling start */
 /*  section start */
 .luxury {
     height: 500px;
