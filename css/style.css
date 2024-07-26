@@ -257,6 +257,9 @@ a.button_main:hover {
     text-transform: uppercase;
 }
 
+.banner__text h1 {
+    color: var(--primary-color);
+}
 
 
 /* home page end */
@@ -265,6 +268,7 @@ a.button_main:hover {
     padding: 0 0 10px 0;
     color: var(--secondary-color);
 }
+
 .casino_banner {
     height: 500px;
     background-image: url(../img/casinobanner.jpg);
