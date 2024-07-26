@@ -664,8 +664,6 @@ a:focus {
     display: block;
     border: 1px solid var(--primary-color);
 }
-
-
 .social_profile ul li a:hover {
     background: var(--primary-color);
     border: 1px solid var(--primary-color);
@@ -695,7 +693,9 @@ p.copyright {
     gap: 20px;
     justify-content: center;
 }
-
+.last ul li a {
+    color: var(--primary-color);
+}
 .bottom_links {
     display: flex;
     border-top: 1px solid #000;
