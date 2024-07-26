@@ -211,6 +211,10 @@ header.sticky {
     color: inherit;
 }
 
+.casino_box p {
+    margin-bottom: 10px;
+}
+
 .casino_btn a {
     background: transparent;
 }
@@ -482,6 +486,7 @@ a.button_main {
     height: 100%;
     z-index: 0;
 }
+
 .contact_section h3 {
     font-size: 22px;
     text-align: left;
