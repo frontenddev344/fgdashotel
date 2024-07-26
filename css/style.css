@@ -235,7 +235,7 @@ a.button_main:hover {
 /* home page start */
 
 .home_banner {
-    height: 500px;
+    height: 600px;
     background-image: url(../img/homebanner.jpg);
     background-size: cover;
     background-position: center;
@@ -251,6 +251,7 @@ a.button_main:hover {
     height: 100%;
     z-index: 0;
 }
+
 .banner_box h1 {
     font-size: 45px;
     text-transform: uppercase;
@@ -260,6 +261,24 @@ a.button_main:hover {
 
 /* home page end */
 /* casino styling start */
+.casino_banner {
+    height: 500px;
+    background-image: url(../img/casinobanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.casino_banner::before {
+    position: absolute;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
 .casino {
     padding: 100px 0;
     text-align: center;
@@ -270,6 +289,24 @@ a.button_main:hover {
 }
 
 /* casino styling end */
+/* luxury section start */
+.luxury {
+    height: 500px;
+    background-image: url(../img/casinobanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.luxury::before {
+    position: absolute;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
 /* info styling start */
 .info_text p {
     font-weight: 600;
@@ -410,7 +447,7 @@ input.form-control.sub_btn:hover {
     color: var(--main-color);
     width: 80%;
     transform: translate(-50%, -50%);
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .contact_social {
@@ -756,15 +793,18 @@ a:focus {
     display: block;
     border: 1px solid var(--primary-color);
 }
+
 .social_profile ul li a:hover {
     background: var(--primary-color);
     border: 1px solid var(--primary-color);
     color: var(--secondary-color);
     border: 0px;
 }
+
 p.copyright {
     color: var(--primary-color);
 }
+
 .single_footer img {
     width: 150px;
 }
@@ -785,12 +825,14 @@ p.copyright {
     gap: 20px;
     justify-content: center;
 }
+
 .last ul li a {
     color: var(--primary-color);
 }
+
 .bottom_links {
     display: flex;
-    border-top: 1px solid  var(--primary-color);
+    border-top: 1px solid var(--primary-color);
     padding-top: 30px;
     margin-top: 30px;
 }
