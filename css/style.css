@@ -261,6 +261,10 @@ a.button_main:hover {
 
 /* home page end */
 /* casino styling start */
+.casino_box h2 {
+    padding: 0 0 10px 0;
+    color: var(--secondary-color);
+}
 .casino_banner {
     height: 500px;
     background-image: url(../img/casinobanner.jpg);
