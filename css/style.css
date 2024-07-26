@@ -290,7 +290,7 @@ a.button_main:hover {
 
 /* casino styling end */
 /* boutique section start */
-.boutique {
+.motel {
     height: 500px;
     background-image: url(../img/btique.jpg);
     background-size: cover;
@@ -299,7 +299,7 @@ a.button_main:hover {
     position: relative;
 }
 
-.boutique::before {
+.motel::before {
     position: absolute;
     content: '';
     background: #000000a8;
@@ -309,6 +309,9 @@ a.button_main:hover {
 }
 
 /* boutique section end */
+/* motel styling start */
+
+/* motel styling start */
 /*  section start */
 .luxury {
     height: 500px;
