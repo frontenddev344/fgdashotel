@@ -443,8 +443,12 @@ a.button_main {
     width: 800px;
     height: 460px;
     object-fit: cover;
+    transition: all 0.3s linear;
 }
 
+.info_img:hover img {
+    transform: scale(1.2);
+}
 
 .info .row {
     position: relative;
@@ -453,6 +457,7 @@ a.button_main {
 
 .info_img {
     width: 30%;
+    overflow: hidden;
 }
 
 .info_text {
