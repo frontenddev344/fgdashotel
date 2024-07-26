@@ -69,11 +69,6 @@
         color: #fff;
     }
 
-    .active {
-        border-bottom: 2px solid #fff;
-        color: #fff !important;
-    }
-
     .navlink ul li {
         padding: 10px;
     }

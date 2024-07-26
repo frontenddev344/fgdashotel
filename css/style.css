@@ -561,7 +561,7 @@ a:focus {
 }
 
 .single_footer ul li a:hover {
-    color: var(--secondary-color);
+    color: var(--main-color);
 }
 
 .single_footer_address ul li {
