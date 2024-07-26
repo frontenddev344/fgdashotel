@@ -578,6 +578,10 @@ input.form-control.sub_btn:hover {
     text-align: center;
 }
 
+.text_pri {
+    color: var(--primary-color);
+}
+
 .privacy::after {
     content: '';
     position: absolute;
