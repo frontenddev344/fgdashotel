@@ -465,7 +465,23 @@ a.button_main {
 }
 
 /* info styling end */
+.contact {
+    height: 500px;
+    background-image: url(../img/conatctbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
+.contact::before {
+    position: absolute;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
 .contact_section h3 {
     font-size: 22px;
     text-align: left;
