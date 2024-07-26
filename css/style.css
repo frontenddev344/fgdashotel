@@ -950,15 +950,15 @@ p.copyright {
 }
 
 .cookie-alert .btn {
-    color: #fff;
+    color: var(--secondary-color);
     background-color: var(--primary-color);
-    border-color: #ffffff;
+    border-color: var(--primary-color);
 }
 
 .cookie-alert .btn:hover {
-    color: var(--primary-color);
-    background-color: #fff;
-    border-color: var(--primary-color);
+    color: var(--secondary-color);
+    background-color: transparent;
+    border-color: var(--secondary-color);
 }
 
 .cookie-alert.show {
