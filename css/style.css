@@ -534,7 +534,7 @@ a:focus {
 } */
 
 .single_footer p {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     text-transform: uppercase;
     margin-top: 21px;
 }
@@ -656,23 +656,25 @@ a:focus {
     transition: all 0.3s ease 0s;
     margin: 0 5px 0 0;
     font-size: 18px;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     border-radius: 30px;
     width: 50px;
     height: 50px;
     line-height: 50px;
     display: block;
-    border: 1px solid var(--secondary-color);
+    border: 1px solid var(--primary-color);
 }
 
 
 .social_profile ul li a:hover {
-    background: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
-    color: var(--primary-color);
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: var(--secondary-color);
     border: 0px;
 }
-
+p.copyright {
+    color: var(--primary-color);
+}
 .single_footer img {
     width: 150px;
 }
