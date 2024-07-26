@@ -282,13 +282,31 @@ a.button_main:hover {
 .casino {
     padding: 100px 0;
     text-align: center;
-    background: url(../img/btique.jpg);
+    background: url(../img/casinobox.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 /* casino styling end */
+.boutique {
+    height: 500px;
+    background-image: url(../img/btique.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.boutique::before {
+    position: absolute;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
 /* boutique section start */
 .motel {
     height: 500px;
