@@ -289,7 +289,27 @@ a.button_main:hover {
 }
 
 /* casino styling end */
-/* luxury section start */
+/* boutique section start */
+.boutique {
+    height: 500px;
+    background-image: url(../img/luxarybanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.boutique::before {
+    position: absolute;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+/* boutique section end */
+/*  section start */
 .luxury {
     height: 500px;
     background-image: url(../img/luxarybanner.jpg);
@@ -307,6 +327,8 @@ a.button_main:hover {
     height: 100%;
     z-index: 0;
 }
+
+/* luxury section end */
 /* info styling start */
 .info_text p {
     font-weight: 600;
