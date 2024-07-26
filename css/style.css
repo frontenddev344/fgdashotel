@@ -950,9 +950,9 @@ p.copyright {
 }
 
 .cookie-alert .btn {
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
 }
 
 .cookie-alert .btn:hover {
