@@ -235,8 +235,8 @@ a.button_main:hover {
 /* home page start */
 
 .home_banner {
-    height: 500px;
-    background-image: url(../image/homebanner.jpg);
+    height: 600px;
+    background-image: url(../img/homebanner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -252,20 +252,6 @@ a.button_main:hover {
     z-index: 0;
 }
 
-.banner_box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: var(--primary-color);
-    width: 80%;
-    transform: translate(-50%, -50%);
-}
 
 .banner_box h1 {
     font-size: 45px;
@@ -275,6 +261,24 @@ a.button_main:hover {
 
 
 /* home page end */
+.casino {
+    height: 500px;
+    background-image: url(../img/casinobanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.casino::before {
+    position: absolute;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
 /* casino styling start */
 .casino {
     padding: 100px 0;
@@ -423,10 +427,9 @@ input.form-control.sub_btn:hover {
     position: absolute;
     top: 50%;
     left: 50%;
-    color: var(--main-color);
+    color: var(--primary-color);
     width: 80%;
     transform: translate(-50%, -50%);
-    color: var(--secondary-color);
 }
 
 .contact_social {
@@ -772,15 +775,18 @@ a:focus {
     display: block;
     border: 1px solid var(--primary-color);
 }
+
 .social_profile ul li a:hover {
     background: var(--primary-color);
     border: 1px solid var(--primary-color);
     color: var(--secondary-color);
     border: 0px;
 }
+
 p.copyright {
     color: var(--primary-color);
 }
+
 .single_footer img {
     width: 150px;
 }
@@ -801,12 +807,14 @@ p.copyright {
     gap: 20px;
     justify-content: center;
 }
+
 .last ul li a {
     color: var(--primary-color);
 }
+
 .bottom_links {
     display: flex;
-    border-top: 1px solid  var(--primary-color);
+    border-top: 1px solid var(--primary-color);
     padding-top: 30px;
     margin-top: 30px;
 }
