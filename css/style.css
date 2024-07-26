@@ -330,7 +330,7 @@ a.button_main {
 
 .info {
     padding: 80px 0;
-    
+
 }
 
 .info_text span {
@@ -678,15 +678,6 @@ a:focus {
 }
 
 /*END SOCIAL PROFILE CSS*/
-.copyright {
-    margin-top: 40px;
-    padding-top: 20px;
-    color: var(--main-color);
-    font-size: 15px;
-    border-top: 1px solid #425d5f29;
-    text-align: center;
-}
-
 .copyright a {
     color: var(--main-color);
     transition: all 0.2s ease 0s;
@@ -694,6 +685,13 @@ a:focus {
 
 .copyright a:hover {
     color: var(--secondary-color);
+}
+
+.last ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
 }
 
 /* footer styling end */
